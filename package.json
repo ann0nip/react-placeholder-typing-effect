@@ -1,0 +1,53 @@
+{
+  "name": "react-placeholder-typing-effect",
+  "version": "2.0.1",
+  "description": "Un componente de React para mostrar un efecto de escritura en el placeholder de un input.",
+  "main": "dist/react-placeholder-typing-effect.cjs.js",
+  "module": "dist/react-placeholder-typing-effect.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "placeholder",
+    "typing effect",
+    "component"
+  ],
+  "author": "Ann0nip",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ann0nip/react-placeholder-typing-effect.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.7.0",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "react-placeholder-typing-effect": "^2.0.0"
+  }
+}
